@@ -1,9 +1,9 @@
 #language: pt
-
+@teste
 Funcionalidade: Economia
 
 Cenario: Verificar o valor do dolar
     Dado que estou no site do UOL
-    Quando acesso a tela de Economia
-        E verifico o valor do dolar
-    Então devo ver que o valor do dolar é menor que "3,20"
+    Quando acessar a tela de Economia
+    E verificar o valor do dolar
+    Então o valor do dolar deve ser menor que "3.20"
